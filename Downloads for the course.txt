@@ -1,0 +1,7 @@
+SOFTWARES for the Course
+
+Download RPi image (Windows,MAC) users - https://www.raspberrypi.com/software/  and burn image on microSD card with SSH and Wifi settings for Headless installation
+Download SSH client e.g Putty (windows users) - https://www.putty.org/ , MAC and Linux users can use their terminal for SSH access.
+Download and install IP scanner e.g Angry IP scanner:  https://angryip.org/
+Downlaod and Install VNC client/Viewer e.g RealVNC (Download Windows client for Windows, MAC client for MAC) :  https://www.realvnc.com/en/connect/download/viewer/
+Download and install Notepad++ : https://notepad-plus-plus.org/downloads/
