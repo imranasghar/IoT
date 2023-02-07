@@ -1,0 +1,8 @@
+#Build Your Push button on the Bradboard cirucuit
+#Using RPi and Python
+#LEDs 
+Push Button Circuit
+-Leg1 - to Ground 10KOh Resistor 
+-Leg2 to voltage -3.3V - 
+-leg3 - resistor 1KOH - wire-GPIO-26 
+https://learning.oreilly.com/videos/raspberry-pi-for/9781804612040/9781804612040-video6_5/
