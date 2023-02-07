@@ -1,8 +1,9 @@
 // Node.js Code
 //root@rpi:/home/pi/Documents# cat node.js 
+// https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
 
 var Gpio = require('onoff').Gpio; //include onoff to interact with the GPIO
-var LED = new Gpio(17, 'out'); //use GPIO pin 4, and specify that it is output
+var LED = new Gpio(17, 'out'); //use GPIO pin 17, and specify that it is output
 var blinkInterval = setInterval(blinkLED, 250); //run the blinkLED function every 250ms
 
 function blinkLED() { //function to start blinking
@@ -19,4 +20,7 @@ function endBlink() { //function to stop blinking
   LED.unexport(); // Unexport GPIO to free resources
 }
 
-setTimeout(endBlink, 5000); //stop blinking after 5 secondsroot@rpi:/home/pi/Documents# 
+setTimeout(endBlink, 5000); //stop blinking after 5 seconds
+
+// how to run the programe
+// root@rpi:/home/pi/Documents# 
